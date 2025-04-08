@@ -11,6 +11,7 @@ const ProjectsContainer = styled.div`
     width: 100%;
     max-width: 1200px;
     padding: 20px;
+    margin: 0 auto;
 `;
 
 const ProjectCard = styled(Link)`
