@@ -92,12 +92,20 @@ const ProjectsSection = () => {
 
     const projects = [
         {
+            id: 'calculator',
+            title: 'Calculator',
+            description: 'Features 2 set of calculators and 1 percentage calculator',
+            icon: '🧮',
+            path: '/projects/calculator',
+            status: 'completed'
+        },
+        {
             id: 'dashboard',
             title: 'Analytics Dashboard',
             description: 'Interactive data visualization dashboard with real-time updates and customizable widgets.',
             icon: '📊',
             path: '/projects/dashboard',
-            status: 'completed'
+            status: 'in-progress'
         },
         {
             id: 'todo',
@@ -105,7 +113,7 @@ const ProjectsSection = () => {
             description: 'Minimalist yet powerful to-do app with drag-and-drop functionality and priority levels.',
             icon: '✅',
             path: '/projects/todo',
-            status: 'completed'
+            status: 'in-progress'
         },
         {
             id: 'weather',
@@ -113,14 +121,6 @@ const ProjectsSection = () => {
             description: 'Location-based weather forecasts with beautiful animations and detailed conditions.',
             icon: '🌤️',
             path: '/projects/weather',
-            status: 'in-progress'
-        },
-        {
-            id: 'calculator',
-            title: 'Calculator',
-            description: 'Feature-rich calculator with scientific functions and calculation history.',
-            icon: '🧮',
-            path: '/projects/calculator',
             status: 'in-progress'
         },
         {
@@ -169,7 +169,7 @@ const ProjectsSection = () => {
             description: 'Responsive image gallery with filtering, lightbox view, and masonry layout.',
             icon: '🖼️',
             path: '/projects/image-gallery',
-            status: 'completed'
+            status: 'in-progress'
         },
         {
             id: 'budget-tracker',
@@ -185,7 +185,7 @@ const ProjectsSection = () => {
             description: 'Project management tool with draggable cards, swim lanes, and task assignments.',
             icon: '📋',
             path: '/projects/kanban',
-            status: 'completed'
+            status: 'in-progress'
         }
     ];
 

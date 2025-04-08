@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import styled from 'styled-components';
 import {useTheme} from '../context/ThemeContext';
 import WorkInProgress from "./projects/WorkInProgress";
+import CalculatorProject from "./projects/CalculatorProject";
 
 const ProjectPageContainer = styled.div`
     padding: 40px 20px;
@@ -29,7 +30,7 @@ const ProjectPage = () => {
         'dashboard': WorkInProgress,
         'todo': WorkInProgress,
         'weather': WorkInProgress,
-        'calculator': WorkInProgress,
+        'calculator': CalculatorProject,
         'notes': WorkInProgress,
         'pomodoro': WorkInProgress,
         'ecommerce': WorkInProgress,

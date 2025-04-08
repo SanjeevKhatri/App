@@ -16,16 +16,6 @@ const PageContainer = styled.div`
     min-height: 100vh;
     padding-bottom: 100px; /* Height of the footer */
 `;
-
-const MainContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 100px); /* Adjust for footer */
-    padding: 20px;
-`;
-
 const Projects = () => {
     return (
         <div style={{
